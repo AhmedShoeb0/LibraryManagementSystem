@@ -1,19 +1,24 @@
 About project:
 -
-A Library Management System is a simple API built using Java Spring Boot. The system allow librarians to manage books, patrons, and borrowing records.
+A Library Management System is a RESTful API built using Java Spring Boot. The system allows librarians to manage books, patrons, and borrowing records efficiently.
 
 Main Features:
 -
-1. The project covers all CRUD operations and HTTP methods.
+1. CRUD Operations
+- Implements all basic CRUD operations using appropriate HTTP methods.
 
-2. PostgreSQL database is used for data storage.
+2. Database Integration
+- Uses PostgreSQL for reliable data storage and management.
 
-3. Validation methods and exception handling are applied with appropriate HTTP status codes and error messages.
+3. Validation & Exception Handling
+- Applies input validation and handles exceptions with meaningful error messages and proper HTTP status codes.
 
-4. A proper relationships are set up between entities.
+4. Entity Relationships
+- Establishes proper relationships between entities (e.g., books, patrons, and borrowing records).
 
-5. HTTP file is provided to test all project operations or you can use postman to test API.
+5. API Testing Support
+- Includes an HTTP file for testing all endpoints, or you can use tools like Postman.
 
 Note:
 -
-- Make sure to set your authentications in application.properties file.
+- Make sure to configure your authentication settings in the `application.properties` file before running the project.
